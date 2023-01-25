@@ -1,0 +1,12 @@
+이름 : 홍길동
+나이 : 20
+주소 : 산골짜기
+
+#include<stdio.h>
+
+main() {
+	FILE* fp = fopen("C:\\Users\\user\\Desktop\\code_test\\IOtest.txt", "w");
+	fprintf(fp, "이름 : 홍길동\n나이 : 20\n주소 : 산골짜기\n");
+	fclose(fp);
+	return 0;
+}
